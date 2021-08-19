@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Design Survey</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+<main>
+<h1 id="title">Survey for Home Design</h1>
+<p id="description">Please answer the following survey to assist in home design choices</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" required="required" placeholder="Enter your name">
+  <br/>
+  <br/>
+  <label id="email-label">Email</label>
+  <input id="email" placeholder="Enter your email" required="reguired" type="email">
+  <br/>
+  <br/>
+  <label id="number-label">Timeline (in months)</label>
+  <input id="number" placeholder="# of months to build" type="number" required="required" min="2" max="12">
+  <br/>
+  <br/>
+  <label id="Current Status">Which describes your current status?</label>
+  <select name="dropdown menu" id="dropdown">
+    <option value="">Please select</option>
+    <option value="Just looking">Just looking</option>
+    <option value="Actively Shopping">Actively Shopping</option>
+    <option value="Ready">Ready to Build</option>
+   </select>
+  <br/>
+  <br/>
+  <p>Are you Preapproved?</p>
+  <label id="Yes">Yes</label>
+  <input id="preapproval" name="preapproved-submit" type="radio" value="radio">
+  <label id="No">No</label>
+  <input id="preapproval" name="preapproved-submit" type="radio" value="radio">
+  <br/>
+  <br/>
+  <p>What are your 'must haves' in your new home?</p>
+  <input type="checkbox" value="Soaking Tub">Soaking Tub
+  <br/>
+  <input type="checkbox" value="open kitchen">Open Kitchen
+  <br/>
+  <input type="checkbox" value="DiningRoom">Dining Room
+  <br/>
+  <input type="checkbox" value="Pool">Pool
+  <br/>
+  <input type="checkbox" value="2CarGarage">Garage
+  <br/>
+  <br/>
+  <label for="comments">Please add additional items below</label>
+  <br>
+  <textarea></textarea>
+  <br>
+  <br>
+  <input type="submit" id="submit" value="submit">
+</form>
+</main>
+<footer>Made by Blaire</footer>
+</body>
+</html>
